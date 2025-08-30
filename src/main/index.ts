@@ -21,7 +21,7 @@ function createWindow(): void {
     opacity: 1.0,
     backgroundColor: '#00000000',
     focusable: true,
-    skipTaskbar: true,
+    skipTaskbar: false,
     type: 'panel',
     paintWhenInitiallyHidden: true,
     titleBarStyle: 'hidden',

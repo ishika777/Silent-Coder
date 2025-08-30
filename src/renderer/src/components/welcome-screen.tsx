@@ -55,7 +55,7 @@ export const WelcomeScreen = ({ onOpenSettings }: WelcomeScreenProps): React.JSX
             Before using the application, you need to set up your API key.
           </p>
           <Button
-            className="w-full px-4 py-3 bg-white text-black rounded-xl font-medium hover:bg-white/90 transition-colors flex items-center justify-center gap-2"
+            className="w-full px-4 py-3 bg-white cursor-pointer text-black rounded-xl font-medium hover:bg-white/90 transition-colors flex items-center justify-center gap-2"
             onClick={onOpenSettings}
           >
             Open Settings
